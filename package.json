@@ -1,0 +1,14 @@
+{
+    "author": {
+        "name": "Torsten Feld",
+        "email": "torsten@torsten-feld.de",
+        "url": "http://www.feldstudie.net"
+    },
+    "name": "centercode-auth-poc",
+    "description": "This tool simulates an external server to auth against with CenterCode connect",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "3.2.6"
+    },
+    "repository": "https://github.com/torstenfeld/centercode-connect-external-auth"
+}
