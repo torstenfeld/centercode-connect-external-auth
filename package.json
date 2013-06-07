@@ -8,6 +8,7 @@
     "description": "This tool simulates an external server to auth against with CenterCode connect",
     "version": "0.0.1",
     "dependencies": {
+        "connect": "2.7.11",
         "express": "3.2.6"
     },
     "repository": "https://github.com/torstenfeld/centercode-connect-external-auth"
