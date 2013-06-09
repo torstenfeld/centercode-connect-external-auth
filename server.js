@@ -19,7 +19,8 @@ app.post('/auth', function auth(req, res) {
     });
     
     validate.on('success', function(user) {
-        res.write(util.inspect(user, {depth: null}).toString());
+        res.write(JSON.stringify(user));
+//        res.write(util.inspect(user, {depth: null}).toString());
         res.end();
     });
     
