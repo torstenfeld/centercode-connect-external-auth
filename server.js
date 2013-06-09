@@ -15,12 +15,10 @@ app.post('/auth', function auth(req, res) {
     });
     
     validate.on('error', function(err) {
-        console.log('success');
         res.end(err);
     });
     
     validate.on('success', function(user) {
-        console.log('success');
         res.write(util.inspect(user, {depth: null}).toString());
         res.end();
     });
